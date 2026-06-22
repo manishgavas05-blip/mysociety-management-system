@@ -1,0 +1,98 @@
+/* BODY */
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#f1f5f9;
+}
+
+/* MAIN */
+.main{
+    padding:30px;
+}
+
+/* TITLE */
+h2{
+    margin-bottom:20px;
+    color:#0f172a;
+}
+
+/* ADD BUTTON */
+.btn-add{
+    display:inline-block;
+    padding:10px 18px;
+    background:#2563eb;
+    color:white;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.btn-add:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+/* TABLE */
+.table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* HEADER */
+.table th{
+    background:#2563eb;
+    color:white;
+    padding:14px;
+    text-align:left;
+}
+
+/* DATA */
+.table td{
+    padding:12px;
+    border-bottom:1px solid #eee;
+}
+
+/* ROW HOVER */
+.table tr:hover{
+    background:#f8fafc;
+}
+
+/* BUTTONS */
+.btn-edit{
+    padding:6px 12px;
+    background:#22c55e;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:13px;
+}
+
+.btn-delete{
+    padding:6px 12px;
+    background:#ef4444;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:13px;
+}
+
+.btn-edit:hover{
+    background:#16a34a;
+}
+
+.btn-delete:hover{
+    background:#dc2626;
+}
+
+/* CARD STYLE WRAPPER */
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}

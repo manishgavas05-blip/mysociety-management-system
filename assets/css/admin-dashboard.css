@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    font-family:Poppins;
+    background:#f4f7fb;
+}
+
+.sidebar{
+    width:260px;
+    height:100vh;
+    background:#0f172a;
+    position:fixed;
+    color:white;
+    padding:25px;
+}
+
+.sidebar h2{
+    color:#38bdf8;
+    margin-bottom:30px;
+}
+
+.sidebar a{
+    display:block;
+    padding:13px;
+    margin:6px 0;
+    color:#cbd5f5;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+.sidebar a:hover{
+    background:#1e293b;
+    color:white;
+}
+
+.main{
+    margin-left:270px;
+    padding:30px;
+}
+
+.card-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
